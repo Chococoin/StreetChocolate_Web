@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="./styles/default.css">
+	<title>Street Chocolate - Delicious Way</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<header class="home">
+		<div id="hidden">
+			<div id="chocolate_bar">
+				<div class="x_close">
+					<img src="./icons/SC_Web_Home-x.png" alt="">
+				</div>
+				<div id="home_ensamble">
+					<img src="./icons/SC_Web_Home-11.png" alt="Icon home"><p>Home</p>
+				</div>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><img src="./icons/SC_Web_Home-12.png" alt="">Quienes Somos</li>
+					<li><a href="./participar.html"><img src="./icons/SC_Web_Home-12.png" alt="">Como Participar</a></li>
+					<li><img src="./icons/SC_Web_Home-12.png" alt="">Asociarse</li>
+					<li><img src="./icons/SC_Web_Home-12.png" alt="">Galeria</li>
+					<li><img src="./icons/SC_Web_Home-12.png" alt="">Perfil</li>
+				</ul>
+			</div>
+		</div>
+		<div class="left_nav">
+			<img id="hamburger" src="./icons/SC_Web_Home-02.png" alt="Menu">
+		</div>
+		<div>
+		<img id="logo" src="./icons/logo.png" alt="Logo">
+		</div>
+		<div class="right_nav">
+		<img id="search" src="./icons/SC_Web_Home-03.png" alt="Search Icon">
+		<img id="user" src="./icons/SC_Web_Home-04.png" alt="User Profile Icon">
+		</div>
+	</header>
+	<main>
+		<section id="sec1">
+			<div id="background_sec1">
+				<img class="dropping" src="./icons/SC_Web_Home-19.png" alt="">
+				<article id="top_art">
+					<aside id="left_aside1"></aside>
+					<aside id="right_aside1">
+						<div id="text_1">
+							<p id="line1">Un lugar  <img src="./icons/	SC_Web_Home-05.png" alt="Chocolate Bar"></p>
+							<p id="line2">Para Compartir</p>
+						</div>
+					</aside>
+				</article>
+				<footer>
+					<div id="corner_1">
+						<p class="a_h">Te Necesitamos</p>
+						<p class="a_l_i">Para formar parte de nuestro proyecto</p>
+					</div>
+					<div class="center">
+						<p class="a_h">¿Interesado?</p>
+						<img id="arrow_1" src="./icons/SC_Web_Home-06.png" alt="Arrow to botton">
+					</div>
+				</footer>
+			</div>
+		</section>
+
+		<section id="sec2">
+			<img class="dropping" src="./icons/SC_Web_Home-19.png" alt="">
+			<article id="art_sec2">
+				<h1 id="who">¿Quienes somos?</h1>
+				<div class="line"></div>
+				<p class="text_block" id="who_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vitae hic aspernatur id praesentium error dolores mollitia dolor suscipit corporis cupiditate dolorem nihil alias facere, delectus soluta ipsa quasi voluptates.</p>
+			</article>
+			<div id="container_sec2">
+				<div id="left_aside2">
+					<p class="c">Comparte</p>
+				</div>
+				<div id="right_aside2">
+					<p class="c">Relajate</p>
+				</div>
+			</div>
+			<footer id="foot_sec2">
+				El Poder del Chocolate
+			</footer>
+		</section>
+		<section id="sec3">
+			<article id="art_sec3_1">
+				<h1 id="what">¿Qué Hacemos?</h1>
+				<div class="line"></div>
+				<p class="text_block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vitae hic aspernatur id praesentium error dolores mollitia dolor suscipit corporis cupiditate dolorem nihil alias facere, delectus soluta ipsa quasi voluptates.</p>
+			</article>
+			<div id="container_sec2">
+				<div id="last_pic">
+					<p class="c">Disfruta</p>
+				</div>
+			</div>
+		</section>
+		<section id="sec4">
+			<article id="art_sec3_1">
+				<h1 id="what">¿Qué Queremos?</h1>
+				<div class="line"></div>
+				<p class="text_block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vitae hic aspernatur id praesentium error dolores mollitia dolor suscipit corporis cupiditate dolorem nihil alias facere, delectus soluta ipsa quasi voluptates.</p>
+			</article>
+		</section>
+
+		<footer id="foot_sec3">
+			<div id="container_last_foot">
+				<div class="cont_logo">
+					<img id="logo_foot" src="./icons/logo.png" alt="Logo">
+				</div>
+				<div id="line_v"></div>
+				<div id="social_icons">
+					<div class="ico_cont">
+						<img class="social_icon" src="./icons/SC_Web_Home-07.png" alt="">
+					</div>
+					<div class="ico_cont">
+						<img class="social_icon" src="./icons/SC_Web_Home-08.png" alt="">
+					</div>
+					<div class="ico_cont">
+						<img class="social_icon" src="./icons/SC_Web_Home-09.png" alt="">
+					</div>
+					<div class="ico_cont">
+						<img class="social_icon" src="./icons/SC_Web_Home-10.png" alt="">
+					</div>
+				</div>
+			</div>
+		<p><strong>2017 &#169;</strong> Street Chocolate todos los derechos reservados</p>
+		</footer>
+	</main>
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+		$("#hamburger").click(function(){
+			$("#hidden").slideToggle("slow");
+		});
+		$(".x_close").click(function(){
+			$("#hidden").slideUp("fast");
+		});
+	});
+		
+	</script>
+</body>
+</html>

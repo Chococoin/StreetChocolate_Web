@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="./styles/default2.css">
+	<title>Street Chocolate - Delicious Way</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<header class="home">
+		<div id="hidden">
+			<div id="chocolate_bar">
+				<div class="x_close">
+					<img src="./icons/SC_Web_Home-x.png" alt="">
+				</div>
+				<div id="home_ensamble">
+					<img src="./icons/SC_Web_Home-11.png" alt="Icon home"><p>Home</p>
+				</div>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><img src="./icons/SC_Web_Home-12.png" alt="">Quienes Somos</li>
+					<li><img src="./icons/SC_Web_Home-12.png" alt="">Como Participar</li>
+					<li><img src="./icons/SC_Web_Home-12.png" alt="">Asociarse</li>
+					<li><img src="./icons/SC_Web_Home-12.png" alt="">Galeria</li>
+					<li><img src="./icons/SC_Web_Home-12.png" alt="">Perfil</li>
+				</ul>
+			</div>
+		</div>
+		<div class="left_nav">
+			<img id="hamburger" src="./icons/SC_Web_Home-02.png" alt="Menu">
+		</div>
+		<div>
+		<img id="logo" src="./icons/logo.png" alt="Logo">
+		</div>
+		<div class="right_nav">
+		<img id="search" src="./icons/SC_Web_Home-03.png" alt="Search Icon">
+		<img id="user" src="./icons/SC_Web_Home-04.png" alt="User Profile Icon">
+		</div>
+	</header>
+	<main>
+		<div class="curtain">
+			<img class="dropping" src="./icons/SC_Web_Home-19b.png" alt="dropping melted chocolate">
+		</div>
+		<section>
+			<article id="art_sec2">
+				<h1 id="who2">¿Como Participar?</h1>
+				<div class="line"></div>
+				<p class="text_block" id="who_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vitae hic aspernatur id praesentium error dolores mollitia dolor suscipit corporis cupiditate dolorem nihil alias facere, delectus soluta ipsa quasi voluptates.</p>
+			</article>
+			<div id="mano"><img src="./images/img6.jpg" alt="">
+			</div>
+		</section>
+	</main>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#hamburger").click(function(){
+				$("#hidden").slideToggle("slow");
+			});
+			$(".x_close").click(function(){
+				$("#hidden").slideUp("fast");
+			});
+		});	
+	</script>
+</body>
+</html>
