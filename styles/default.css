@@ -1,4 +1,4 @@
-@font-face {
+							@font-face {
   font-family: 'coolvetica';
   src: url('../fonts/coolvetica_rg.ttf');
 }
@@ -16,6 +16,11 @@
 @font-face {
   font-family: 'avenir_heavy';
   src: url('../fonts/AvenirLTStd-Heavy.otf');
+}
+
+.right_nav p{
+	font-family: 'avenir_light';
+	color: #FFF;
 }
 
 a{
@@ -148,26 +153,28 @@ main{
 	}
 
 	#hamburger {
-		width: 2em;
+		width: 5vw;
 		height: auto;
-		margin-top:2.5vh;
+		margin-top: 2.5vh;
 		margin-left: 3vw;
 	}
 
 	#logo {
-		margin-top:1vh;
+		margin-top: 1vh;
 		height: 15vh;
-		margin-left: 8vw;
+		margin-left: 15vw;
 		z-index: 99;
-	}
+			}
 
-	#search {
-		width: 2em;
+	#dollar {
+		width: 5vw;
 		height: auto;
+		margin-left: 2.5vw;
+		margin-top: 3vh;
 	}
 
-	#user {
-		width: 2em;
+	#language_tag {
+		width: 6vw;
 		height: auto;
 		margin-left: 2.85vw;
 	}
@@ -560,8 +567,8 @@ main{
 	}
 
 	.right_nav{
-		margin-top: 2vh;
-		margin-right: 3vw;
+		margin-top: 3vh;
+		margin-right: 4vw;
 	}
 
 	#hamburger {
