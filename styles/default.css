@@ -31,6 +31,33 @@ main{
 	z-index: -99;
 }
 
+.art_std{
+	background-color: #FFF;
+}
+
+.art_std h1{
+	font-family: 'coolvetica';
+	color: #410E09;
+	font-size: 1.7em;
+	margin-top: 8vh;
+}
+
+.art_std p{
+	font-family: 'avenir_light';
+	font-size: 1em;
+	text-align: justify;
+	text-justify: inter-word;
+	width: 65%;
+	margin-bottom: 1.2em;
+}
+
+.art_line{
+	border-bottom: 1px solid #000;
+	height: 1px;
+	width: 75%;
+	margin: 2.5vh auto;
+}
+
 @media (orientation: portrait){
 	#hidden{
 		display: none;
@@ -228,7 +255,8 @@ main{
 	#text_1{
 		width: 85%;
 		height: auto;
-		margin: 40% 0 0 0;
+		margin: auto;
+		padding-top: 5%;
 	}
 
 	#text_1 p{
