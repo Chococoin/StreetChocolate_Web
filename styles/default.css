@@ -18,6 +18,14 @@
   src: url('../fonts/AvenirLTStd-Heavy.otf');
 }
 
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #400E08;
+}
+
 .right_nav p{
 	font-family: 'avenir_light';
 	color: #FFF;
@@ -37,7 +45,7 @@ main{
 
 .art_std h1{
 	font-family: 'coolvetica';
-	color: #410E09;
+	color: #400E08;
 	font-size: 1.7em;
 	margin-top: 8vh;
 }
@@ -85,6 +93,28 @@ main{
 	display: block;
 	width: 35%;
 }
+
+.big_icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 70vw;
+	margin: 0 15vw 8vh;
+}
+
+.big_icons img{
+	width: 15vw;
+	height: auto; 
+}
+
+.dropping{
+	height: auto;
+	margin-bottom: 2vh;
+	position: absolute;
+	width: 100%;
+	z-index: 9;
+}
+
 
 @media (orientation: portrait){
 	#hidden{
@@ -181,11 +211,8 @@ main{
 		align-items: center;
 	}
 
-	#corner_1{
-		border: 0.1em solid white;
-		border-radius: 0.3em;
-		margin: 3vh auto;
-		padding: 5%;
+	.bronw_banner{
+		background-color: #400E08; 
 	}
 
 	header {
@@ -193,7 +220,7 @@ main{
 		justify-content: space-between;
 		width: 100%;
 		height: 10%;
-		background-color: #410E09;
+		background-color: #400E08;
 		z-index: 99;
 	}
 
@@ -254,13 +281,6 @@ main{
 		background-size: cover;
 	}
 
-	.dropping{
-		height: auto;
-		position: absolute;
-		width: 100%;
-		z-index: 9;
-	}
-
 	#line2{
 		color: #F08DAB;
 	}
@@ -305,14 +325,6 @@ main{
 		left: 0px;
 	}
 
-	footer{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		background-color: rgba(50,24,26, 0.8);
-	}
-
 	#arrow_1 {
 		width: 6vw;
 		height: auto;
@@ -324,15 +336,6 @@ main{
 		flex-direction: column;
 		align-items: center;
 		min-height: 80vh;
-	}
-
-	#who{
-		width: 100%;
-		font-family: coolvetica;
-		font-size: 1.8em;
-		color: #3E1719;
-		text-align: center;
-		margin-top: 34vh;
 	}
 
 	#who2{
@@ -358,11 +361,6 @@ main{
 		border-bottom: 0.1em solid #3E1719;
 		width: 65%;
 		margin: 1em auto;
-	}
-
-	#who_text{
-		width: 65%;
-		text-align: justify;
 	}
 
 	#container_sec2{
@@ -720,15 +718,6 @@ main{
 		min-height: 70vh;
 	}
 
-	#who{
-		width: 100%;
-		font-family: coolvetica;
-		font-size: 1.8em;
-		color: #3E1719;
-		text-align: center;
-		margin-top: 0.5vh;
-	}
-
 	#who2{
 		width: 100%;
 		font-family: coolvetica;
@@ -752,11 +741,6 @@ main{
 		border-bottom: 0.1em solid #3E1719;
 		width: 65%;
 		margin: 1em auto;
-	}
-
-	#who_text{
-		width: 75%;
-		text-align: justify;
 	}
 
 	#container_sec2{
