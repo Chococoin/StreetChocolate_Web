@@ -43,7 +43,7 @@ main{
 	background-color: #FFF;
 }
 
-.art_std h1{
+.art_std h2{
 	font-family: "coolvetica";
 	color: #400E08;
 	font-size: 1.7em;
@@ -86,7 +86,7 @@ main{
 	color: #6EC6E2 ;
 	font-family: "coolvetica";
 	font-size: 7vw;
-	text-shadow: 2px 2px #1A161699;
+	text-shadow: 2px 2px #1A1616;
 	margin: 8vh auto 2vh;
 	padding: 0.4em 0;
 	text-align: center;
@@ -114,13 +114,13 @@ main{
 }
 
 #foot_sec2{
-	background-color: #D5D5D5;
-	font-family: "coolvetica";
-	color: #400E08;
-	font-size: 5vw;
+	background-color: #D9D9D9;
+	font-family: coolvetica;
 	color: white;
+	font-size: 4.3vh;
+	color: #400E08;
 	width: 100%;
-	min-height: 8vh;
+	min-height: 14vh;
 }
 
 .blue_line{
@@ -197,7 +197,31 @@ main{
 }
 
 #goal_status{
-	font-size: 1vh
+	font-size: 1vh;
+}
+
+#email{
+	font-family: "avenir_light";
+	font-size: 1vh;
+	color: #FFF;
+}
+
+#telf{
+	font-family: "avenir_light";
+	font-size: 1vh;
+	color: #FFF;
+}
+
+#address{
+	font-family: "avenir_light";
+	font-size: 1vh;
+	color: #FFF;
+}
+
+#management{
+	font-family: "avenir_light";
+	font-size: 1vh;
+	color: #FFF;
 }
 
 @media (orientation: portrait){
@@ -243,7 +267,7 @@ main{
 	}
 
 	#menu{
-		background-color: rgba(266,266,266,0.95);
+		background-color: rgba(255,255,255,0.95);
 		height: 36vh;
 		padding-top: 1vh;
 	}
@@ -377,7 +401,7 @@ main{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background-color: rgba(266,266,266,0.7);
+		background-color: rgba(255,255,255,0.7);
 		position: absolute;
 		width: 50vw;
 		height: 68vh;
@@ -471,13 +495,13 @@ main{
 	}
 
 	#foot_sec2{
-		background-color: #D5D5D5;
-		font-family: "coolvetica";
+		background-color: #D9D9D9;
+		font-family: coolvetica;
 		color: white;
-		font-size: 5vw;
-		color: white;
+		font-size: 4.3vh;
+		color: #400E08;
 		width: 100%;
-		min-height: 8vh;
+		min-height: 14vh;
 	}
 
 	#art_sec3_1{
@@ -625,7 +649,7 @@ main{
 	}
 
 	#menu{
-		background-color: rgba(266,266,266,0.95);
+		background-color: rgba(255,255,255,0.95);
 		height: 46vh;
 		padding-top: 1vh;
 	}
@@ -766,7 +790,7 @@ main{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background-color: rgba(266,266,266,0.7);
+		background-color: rgba(255,255,255,0.7);
 		position: absolute;
 		width: 50vw;
 		height: 74vh;
@@ -880,11 +904,11 @@ main{
 	}
 
 	#foot_sec2{
-		background-color: #3C1012;
+		background-color: #D9D9D9;
 		font-family: coolvetica;
 		color: white;
-		font-size: 5vw;
-		color: white;
+		font-size: 4.3vh;
+		color: #400E08;
 		width: 100%;
 		min-height: 14vh;
 	}
