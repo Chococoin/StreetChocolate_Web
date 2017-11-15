@@ -36,14 +36,14 @@
 		background-image: url("../images/img5.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		width: 100%;
 		height: 24vh;
+		width: 100%;
 	}
 
 	#home_ensamble{
-		position: relative;
 		bottom: -78%;
 		margin-left: 6vw;
+		position: relative;
 	}
 
 	#home_ensamble p{
@@ -51,13 +51,13 @@
 		display: inline;
 		font-family: avenir_heavy;
 		font-size: 1.5em;
-		margin-left: 0.3em;
 		letter-spacing: -1px;
+		margin-left: 0.3em;
 	}
 
 	#chocolate_bar img{
-		height: 4vh;
 		display: inline;
+		height: 4vh;
 	}
 
 	#menu{
@@ -68,16 +68,15 @@
 
 	#menu ul{
 		list-style-type: none;
-
 	}
 
 	#menu li{
+		align-items: center;
 		display: flex;
 		flex-direction: row;
-		align-items: center;
+		font-family: 'avenir_light';
 		height: 7vh;
 		text-align: left;
-		font-family: 'avenir_light';
 	}
 
 	#menu li:hover{
@@ -86,11 +85,11 @@
 
 	#menu li img{
 		display: inline;
-		width: 5vw;
 		height: auto;
-		margin-left: 7vw;
 		margin-bottom: 1px;
-		margin-right: 5px
+		margin-left: 7vw;
+		margin-right: 5px;
+		width: 5vw;
 	}
 
 	.a_h{
@@ -101,16 +100,16 @@
 	}
 
 	.a_l_i{
+		color:#FFF;
 		font-family: avenir_light_italic;
 		text-align: center;
-		color:#FFF;
 	}
 
 	.center{
+		align-items: center;
 		display: flex;
 		flex-flow: column;
 		justify-content: center;
-		align-items: center;
 	}
 
 	.bronw_banner{
@@ -118,11 +117,11 @@
 	}
 
 	header {
+		background-color: #400E08;
 		display: flex;
+		height: 10%;
 		justify-content: space-between;
 		width: 100%;
-		height: 10%;
-		background-color: #400E08;
 		z-index: 99;
 	}
 
@@ -132,44 +131,44 @@
 	}
 
 	.right_nav{
-		margin-top: 2vh;
 		margin-right: 3vw;
+		margin-top: 2vh;
 	}
 
 	#hamburger {
-		width: 5vw;
 		height: auto;
-		margin-top: 2.5vh;
 		margin-left: 3vw;
+		margin-top: 2.5vh;
+		width: 5vw;
 	}
 
 	#logo {
-		margin-top: 1vh;
 		height: 15vh;
 		margin-left: 15vw;
+		margin-top: 1vh;
 		z-index: 99;
-			}
+	}
 
 	#dollar {
-		width: 5vw;
 		height: auto;
 		margin-left: 2.5vw;
 		margin-top: 3vh;
+		width: 5vw;
 	}
 
 	#language_tag {
-		width: 6vw;
 		height: auto;
 		margin-left: 2.85vw;
+		width: 6vw;
 	}
 
 	article {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		display: flex;
+		flex-flow: row wrap;
 		height: 100%;
+		justify-content: center;
 		z-index: 8;
 	}
 
@@ -192,21 +191,21 @@
 	}
 
 	#right_aside1 {
-		display: flex;
-		justify-content: center;
 		align-items: center;
 		background-color: rgba(255,255,255,0.7);
-		position: absolute;
-		width: 50vw;
+		display: flex;
 		height: 68vh;
+		justify-content: center;
+		position: absolute;
 		right: 0px;
+		width: 50vw;
 	}
 
 	#text_1{
-		width: 85%;
 		height: auto;
 		margin: auto;
 		padding-top: 5%;
+		width: 85%;
 	}
 
 	#text_1 p{
@@ -222,21 +221,21 @@
 
 	#left_aside1 {
 		background-color: rgba(66,66,66,0.7);
+		left: 0px;
 		position: absolute;
 		width: 50%;
-		left: 0px;
 	}
 
 	#arrow_1 {
-		width: 6vw;
 		height: auto;
 		margin-bottom: 0.4em;
+		width: 6vw;
 	}
 
 	.line{
 		border-bottom: 0.1em solid #3E1719;
-		width: 65%;
 		margin: 1em auto;
+		width: 65%;
 	}
 
 	#container_sec2{
@@ -247,93 +246,99 @@
 	}
 
 	#left_aside2{
-		display: flex;
 		background-image: url("../images/img2.jpg");
 		background-repeat:no-repeat;
 		background-size: cover;
+		display: flex;
 		width: 50%;
 	}
 
 	#right_aside2{
-		display: flex;
 		background-image: url("../images/img3.jpg");
 		background-repeat:no-repeat;
 		background-size: cover;
+		display: flex;
 		width: 50%;
 	}
 
 	#foot_sec2{
 		background-color: #D9D9D9;
-		font-family: coolvetica;
-		color: white;
-		font-size: 4.3vh;
 		color: #400E08;
-		width: 100%;
+		font-family: coolvetica;
+		font-size: 4.3vh;
 		min-height: 14vh;
+		width: 100%;
 	}
 
-	#foot_sec3{
-		display: block;
+	.foot_sec3{
 		background-color: #3E1719;
+		display: block;
 		padding: 0.5em 0;
 	}
 
 	#container_last_foot{
-		display: flex;
 		align-items: center;
+		display: flex;
 		justify-content: space-around;
 		width: 100%;
 	}
 
 	#line_v{
 		border-right: 0.1em solid white;
-		height: 15vh;
-		margin-top: 1%;
-		margin-right: 6%;
 		display: inline-block;
+		height: 15vh;
+		margin-right: 6%;
+		margin-top: 1%;
 	}
 
 	#social_icons {
-		width: 30%;
+		display: inline-block;	
 		margin-right: 3%;
 		margin-top: 2%;
-		display: inline-block;	
+		width: 30%;
 	}
 
 	.social_icon{
-		width: 100%;
-		height: auto;
 		display: inline-block;
+		height: auto;
+		width: 100%;
 	}
 
 	.ico_cont{
-		width: 20%;
-		height: auto;
-		margin-right: 5%;
 		display: inline;
 		float: left;
+		height: auto;
+		margin-right: 5%;
+		width: 20%;
 	}
 
-	#foot_sec3 p{
-		font-size: 0.9em;
-		text-align: center;
+	#email{
 		color: #FFF;
-		position: relative;
+		display: none;
+		font-family: "avenir_light";
+		font-size: 0.2vh;
+	}
+
+	.foot_sec3 p{
 		bottom: 1.5vh;
+		color: #FFF;
+		font-size: 0.9em;
 		margin-top: 1em;
+		position: relative;
+		text-align: center;
 	}
 
 	.text_block{
 		font-family: avenir_light;
 		margin-bottom: 2.2vh;
-		width: 65%;
 		text-align: justify;
+		width: 65%;
 	}
 
 	.cont_logo{
 		display: inline-block;
-		width: 35%;
 		padding: 0em 0;
+		width: 35%;
 	}
 
 	#letrero_y{
@@ -353,16 +358,16 @@
 	}
 
 	#logo_foot{
-		width: 100%;
 		height: auto;
+		width: 100%;
 	}
 
 	footer{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: #400E08;
+		align-items: center;
+		background-color: #400E08;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.right_nav p{
@@ -383,8 +388,8 @@
 	}
 
 	.art_std h2{
-		font-family: "coolvetica";
 		color: #400E08;
+		font-family: "coolvetica";
 		font-size: 1.7em;
 		margin-top: 8vh;
 	}
@@ -392,44 +397,44 @@
 	.art_std p{
 		font-family: "avenir_light";
 		font-size: 1em;
+		margin-bottom: 1.2em;
 		text-align: justify;
 		text-justify: inter-word;
 		width: 65%;
-		margin-bottom: 1.2em;
 	}
 
 	.art_line{
 		border-bottom: 1px solid #000;
 		height: 1px;
-		width: 75%;
 		margin: 2.5vh auto;
+		width: 75%;
 	}
 
 	.one_pic{
-		display: flex;
 		background-image: url("../images/img4.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		width: 100%;
+		display: flex;
 		height: auto;
+		width: 100%;
 	}
 
 	.one_pic img{
-		width: 37vw;
 		height: auto;
 		margin-top: 1vh;
+		width: 37vw;
 	}
 
 	.c{
 		border: 0.1em solid;
 		color: #6EC6E2 ;
+		display: block;
 		font-family: "coolvetica";
 		font-size: 7vw;
-		text-shadow: 2px 2px #1A1616;
 		margin: 8vh auto 2vh;
 		padding: 0.4em 0;
 		text-align: center;
-		display: block;
+		text-shadow: 2px 2px #1A1616;
 		width: 35%;
 	}
 
@@ -454,31 +459,31 @@
 
 	#foot_sec2{
 		background-color: #D9D9D9;
-		font-family: coolvetica;
-		color: white;
-		font-size: 4.3vh;
 		color: #400E08;
-		width: 100%;
+		color: white;
+		font-family: coolvetica;
+		font-size: 4.3vh;
 		min-height: 14vh;
+		width: 100%;
 	}
 
 	.blue_line{
-		width: 100vw;
-		height: 1vh;
 		background-color: #7CC9DD;
+		height: 1vh;
+		width: 100vw;
 	}
 
 	.big_icons{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		width: 70vw;
 		margin: 0 15vw 8vh;
+		width: 70vw;
 	}
 
 	.big_icons img{
-		width: 30%;
 		height: auto;
+		width: 30%;
 	}
 
 	.dropping{
@@ -490,14 +495,14 @@
 	}
 
 	.target{
+		align-items: center;
+		background-color: #D9D9D9;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
-		justify-content: space-around;
-		align-items: center;
-		background-color: #D9D9D9;
 		font-family: "coolvetica";
 		height: 10vh;
+		justify-content: space-around;
 		width: 100vw;
 	}
 
@@ -507,12 +512,12 @@
 	}
 
 	.target_status{
-		display: flex;
 		align-items: center;
+		border: 3px solid pink;
+		color: #400E08;
+		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		color: #400E08;
-		border: 3px solid pink;
 	}
 
 	.target_status p{
@@ -539,28 +544,23 @@
 		font-size: 1vh;
 	}
 
-	#email{
-		font-family: "avenir_light";
-		font-size: 0.2vh;
-		color: #FFF;
-	}
-
 	#telf{
+		color: #FFF;
+		display: none;
 		font-family: "avenir_light";
 		font-size: 1vh;
-		color: #FFF;
 	}
 
 	#address{
+		color: #FFF;
 		font-family: "avenir_light";
 		font-size: 1vh;
-		color: #FFF;
 	}
 
 	#management{
+		color: #FFF;
 		font-family: "avenir_light";
 		font-size: 1vh;
-		color: #FFF;
 	}
 }
 
@@ -810,76 +810,76 @@
 
 	#foot_sec2{
 		background-color: #D9D9D9;
-		font-family: coolvetica;
-		color: white;
-		font-size: 4.3vh;
 		color: #400E08;
-		width: 100%;
+		color: white;
+		font-family: coolvetica;
+		font-size: 4.3vh;
 		min-height: 14vh;
+		width: 100%;
 	}
 
-	#foot_sec3{
-		display: block;
+	.foot_sec3{
 		background-color: #3E1719;
+		display: block;
 		padding: 0.5em 0;
 	}
 
 	#container_last_foot{
-		display: flex;
 		align-items: center;
+		display: flex;
 		justify-content: space-around;
 		width: 100%;
 	}
 
 	#line_v{
 		border-right: 0.1em solid white;
-		height: 15vh;
-		margin-top: 1%;
-		margin-right: 6%;
 		display: inline-block;
+		height: 15vh;
+		margin-right: 6%;
+		margin-top: 1%;
 	}
 
 	#social_icons {
-		width: 30%;
+		display: inline-block;	
 		margin-right: 3%;
 		margin-top: 2%;
-		display: inline-block;	
+		width: 30%;
 	}
 
 	.social_icon{
-		width: 100%;
-		height: auto;
 		display: inline-block;
+		height: auto;
+		width: 100%;
 	}
 
 	.ico_cont{
-		width: 20%;
-		height: auto;
-		margin-right: 5%;
 		display: inline;
 		float: left;
+		height: auto;
+		margin-right: 5%;
+		width: 20%;
 	}
 
-	#foot_sec3 p{
-		font-size: 0.9em;
-		text-align: center;
-		color: #FFF;
-		position: relative;
+	.foot_sec3 p{
 		bottom: 1.5vh;
+		color: #FFF;
+		font-size: 0.9em;
 		margin-top: 1em;
+		position: relative;
+		text-align: center;
 	}
 
 	.text_block{
 		font-family: avenir_light;
 		margin-bottom: 2.2vh;
-		width: 65%;
 		text-align: justify;
+		width: 65%;
 	}
 
 	.cont_logo{
 		display: inline-block;
-		width: 35%;
 		padding: 0em 0;
+		width: 35%;
 	}
 
 	#letrero_y{
@@ -899,21 +899,21 @@
 	}
 
 	#logo_foot{
-		width: 100%;
 		height: auto;
+		width: 100%;
 	}
 
 	footer{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: #400E08;
+		align-items: center;
+		background-color: #400E08;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.right_nav p{
-		font-family: "avenir_light";
 		color: #FFF;
+		font-family: "avenir_light";
 	}
 
 	a{
@@ -929,8 +929,8 @@
 	}
 
 	.art_std h2{
-		font-family: "coolvetica";
 		color: #400E08;
+		font-family: "coolvetica";
 		font-size: 1.7em;
 		margin-top: 8vh;
 	}
@@ -938,44 +938,44 @@
 	.art_std p{
 		font-family: "avenir_light";
 		font-size: 1em;
+		margin-bottom: 1.2em;
 		text-align: justify;
 		text-justify: inter-word;
 		width: 65%;
-		margin-bottom: 1.2em;
 	}
 
 	.art_line{
 		border-bottom: 1px solid #000;
 		height: 1px;
-		width: 75%;
 		margin: 2.5vh auto;
+		width: 75%;
 	}
 
 	.one_pic{
-		display: flex;
 		background-image: url("../images/img4.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		width: 100%;
+		display: flex;
 		height: auto;
+		width: 100%;
 	}
 
 	.one_pic img{
-		width: 37vw;
 		height: auto;
 		margin-top: 1vh;
+		width: 37vw;
 	}
 
 	.c{
 		border: 0.1em solid;
 		color: #6EC6E2 ;
+		display: block;
 		font-family: "coolvetica";
 		font-size: 7vw;
-		text-shadow: 2px 2px #1A1616;
 		margin: 8vh auto 2vh;
 		padding: 0.4em 0;
 		text-align: center;
-		display: block;
+		text-shadow: 2px 2px #1A1616;
 		width: 35%;
 	}
 
@@ -983,7 +983,6 @@
 		display: flex;
 		flex-direction: row;
 		width: 100vw;
-
 	}
 
 	#seg_y{
@@ -1000,31 +999,31 @@
 
 	#foot_sec2{
 		background-color: #D9D9D9;
-		font-family: coolvetica;
-		color: white;
-		font-size: 4.3vh;
 		color: #400E08;
-		width: 100%;
+		color: white;
+		font-family: coolvetica;
+		font-size: 4.3vh;
 		min-height: 14vh;
+		width: 100%;
 	}
 
 	.blue_line{
-		width: 100vw;
-		height: 1vh;
 		background-color: #7CC9DD;
+		height: 1vh;
+		width: 100vw;
 	}
 
 	.big_icons{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		width: 70vw;
 		margin: 0 15vw 8vh;
+		width: 70vw;
 	}
 
 	.big_icons img{
-		width: 30%;
 		height: auto;
+		width: 30%;
 	}
 
 	.dropping{
@@ -1036,14 +1035,14 @@
 	}
 
 	.target{
+		align-items: center;
+		background-color: #D9D9D9;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
-		justify-content: space-around;
-		align-items: center;
-		background-color: #D9D9D9;
 		font-family: "coolvetica";
 		height: 10vh;
+		justify-content: space-around;
 		width: 100vw;
 	}
 
@@ -1053,12 +1052,12 @@
 	}
 
 	.target_status{
-		display: flex;
 		align-items: center;
+		border: 3px solid pink;
+		color: #400E08;
+		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		color: #400E08;
-		border: 3px solid pink;
 	}
 
 	.target_status p{
@@ -1076,9 +1075,9 @@
 	}
 
 	.arrows{
+		color: grey;
 		font-family: "coolvetica";
 		font-size: 5vh;
-		color: grey;
 	}
 
 	#goal_status{
@@ -1086,26 +1085,26 @@
 	}
 
 	#email{
+		color: #FFF;
 		font-family: "avenir_light";
 		font-size: 1vh;
-		color: #FFF;
 	}
 
 	#telf{
+		color: #FFF;
 		font-family: "avenir_light";
 		font-size: 1vh;
-		color: #FFF;
 	}
 
 	#address{
+		color: #FFF;
 		font-family: "avenir_light";
 		font-size: 1vh;
-		color: #FFF;
 	}
 
 	#management{
+		color: #FFF;
 		font-family: "avenir_light";
 		font-size: 1vh;
-		color: #FFF;
 	}
 }
