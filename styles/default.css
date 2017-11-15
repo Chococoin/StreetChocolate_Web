@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'coolvetica';
-  src: url('../fonts/coolvetica_rg.ttf');
+  src: url('../fonts/coolveti.ttf');
 }
 
 @font-face {
@@ -62,7 +62,7 @@
 
 	#menu{
 		background-color: rgba(255,255,255,0.95);
-		height: 36vh;
+		height: 43vh;
 		padding-top: 1vh;
 	}
 
@@ -93,16 +93,24 @@
 	}
 
 	.a_h{
-		color:#FFF;
-		font-family: avenir_heavy;
+		color: #FFF;
+		font-family: "avenir_heavy";
 		padding: 0.2em;
 		text-align: center;
 	}
 
 	.a_l_i{
-		color:#FFF;
-		font-family: avenir_light_italic;
+		color: #FFF;
+		font-family: "avenir_light_italic";
 		text-align: center;
+	}
+
+	.a_l_i_black{
+		color: #000 !important;
+		font-family: "avenir_light_italic" !important;
+		font-size: 2vh !important;
+		text-align: justify !important;
+		text-justify: inter-word !important;
 	}
 
 	.center{
