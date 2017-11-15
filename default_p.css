@@ -1,4 +1,4 @@
-@font-face {
+							@font-face {
   font-family: 'coolvetica';
   src: url('../fonts/coolvetica_rg.ttf');
 }
@@ -439,32 +439,6 @@ main{
 		margin-bottom: 0.4em;
 	}
 
-	#art_sec2{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		min-height: 80vh;
-	}
-
-	#who2{
-		width: 100%;
-		font-family: coolvetica;
-		font-size: 1.8em;
-		color: #3E1719;
-		text-align: center;
-		margin-top: 2vh;
-	}
-
-	 #what{
-		width: 100%;
-		font-family: coolvetica;
-		font-size: 1.8em;
-		color: #3E1719;
-		text-align: center;
-		margin: auto;
-		padding-top: 3vh;
-	}
-
 	.line{
 		border-bottom: 0.1em solid #3E1719;
 		width: 65%;
@@ -502,13 +476,6 @@ main{
 		color: #400E08;
 		width: 100%;
 		min-height: 14vh;
-	}
-
-	#art_sec3_1{
-		display: flex;
-		justify-content: center;
-		align-content: center;
-		min-height: 30vh;
 	}
 
 	#foot_sec3{
@@ -594,15 +561,6 @@ main{
 	#logo_foot{
 		width: 100%;
 		height: auto;
-	}
-
-	#mano{
-		width: 90%;
-		float: right;
-	}
-
-	#mano img{
-		width: 100%;
 	}
 }
 
@@ -701,13 +659,6 @@ main{
 		align-items: center;
 	}
 
-	#corner_1{
-		border: 0.1em solid white;
-		border-radius: 0.3em;
-		margin: 3vh auto;
-		padding: 5%;
-	}
-
 	header {
 		display: flex;
 		position: relative;
@@ -738,17 +689,6 @@ main{
 		margin-top:1vh;
 		height: 12vw;
 		margin-left: 8vw;
-	}
-
-	#search {
-		width: 2em;
-		height: auto;
-	}
-
-	#user {
-		width: 2em;
-		height: auto;
-		margin-left: 2.85vw;
 	}
 
 	article {
@@ -835,32 +775,6 @@ main{
 		margin-bottom: 0.4em;
 	}
 
-	#art_sec2{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		min-height: 70vh;
-	}
-
-	#who2{
-		width: 100%;
-		font-family: coolvetica;
-		font-size: 1.8em;
-		color: #3E1719;
-		text-align: center;
-		margin-top: 37vh;
-	}
-
-	 #what{
-		width: 100%;
-		font-family: coolvetica;
-		font-size: 1.8em;
-		color: #3E1719;
-		text-align: center;
-		margin: auto;
-		padding-top: 8vh;
-	}
-
 	.line{
 		border-bottom: 0.1em solid #3E1719;
 		width: 65%;
@@ -911,13 +825,6 @@ main{
 		color: #400E08;
 		width: 100%;
 		min-height: 14vh;
-	}
-
-	#art_sec3_1{
-		display: flex;
-		justify-content: center;
-		align-content: center;
-		min-height: 30vh;
 	}
 
 	#foot_sec3{
