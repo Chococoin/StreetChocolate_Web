@@ -553,12 +553,14 @@
 
 	#address{
 		color: #FFF;
+		display: none;
 		font-family: "avenir_light";
 		font-size: 1vh;
 	}
 
 	#management{
 		color: #FFF;
+		display: none;
 		font-family: "avenir_light";
 		font-size: 1vh;
 	}
