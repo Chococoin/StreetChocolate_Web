@@ -65,6 +65,7 @@
 						<img src="icons/SC_whitelogo.png" alt="Street Chocolate logo">
 						<p class="c">Disfruta</p>
 				</footer>
+				<div class="blue_line"></div>
 				<div class="bronw_banner">
 					<p class="a_h">Te Necesitamos</p>
 					<p class="a_l_i">Para formar parte de nuestro proyecto</p>
@@ -117,21 +118,6 @@
 				El Poder del Chocolate
 			</footer>
 		</section>
-		<section id="sec3">
-			<article id="art_sec3_1">
-				<h1 id="what">¿Qué Hacemos?</h1>
-				<div class="line"></div>
-				<p class="text_block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vitae hic aspernatur id praesentium error dolores mollitia dolor suscipit corporis cupiditate dolorem nihil alias facere, delectus soluta ipsa quasi voluptates.</p>
-			</article>
-
-		</section>
-		<section id="sec4">
-			<article id="art_sec3_1">
-				<h1 id="what">¿Qué Queremos?</h1>
-				<div class="line"></div>
-				<p class="text_block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vitae hic aspernatur id praesentium error dolores mollitia dolor suscipit corporis cupiditate dolorem nihil alias facere, delectus soluta ipsa quasi voluptates.</p>
-			</article>
-		</section>
 
 		<footer id="foot_sec3">
 			<div id="container_last_foot">
@@ -158,16 +144,14 @@
 		</footer>
 	</main>
 	<script type="text/javascript">
-
-	$(document).ready(function(){
-		$("#hamburger").click(function(){
-			$("#hidden").slideToggle("slow");
+		$(document).ready(function(){
+			$("#hamburger").click(function(){
+				$("#hidden").slideToggle("slow");
+			});
+			$(".x_close").click(function(){
+				$("#hidden").slideUp("fast");
+			});
 		});
-		$(".x_close").click(function(){
-			$("#hidden").slideUp("fast");
-		});
-	});
-		
 	</script>
 </body>
 </html>

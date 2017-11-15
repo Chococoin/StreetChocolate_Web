@@ -27,7 +27,7 @@ footer{
 }
 
 .right_nav p{
-	font-family: 'avenir_light';
+	font-family: "avenir_light";
 	color: #FFF;
 }
 
@@ -44,14 +44,14 @@ main{
 }
 
 .art_std h1{
-	font-family: 'coolvetica';
+	font-family: "coolvetica";
 	color: #400E08;
 	font-size: 1.7em;
 	margin-top: 8vh;
 }
 
 .art_std p{
-	font-family: 'avenir_light';
+	font-family: "avenir_light";
 	font-size: 1em;
 	text-align: justify;
 	text-justify: inter-word;
@@ -84,7 +84,7 @@ main{
 .c{
 	border: 0.1em solid;
 	color: #6EC6E2 ;
-	font-family: coolvetica;
+	font-family: "coolvetica";
 	font-size: 7vw;
 	text-shadow: 2px 2px #1A161699;
 	margin: 8vh auto 2vh;
@@ -113,7 +113,21 @@ main{
 	width: 50%;
 }
 
+#foot_sec2{
+	background-color: #D5D5D5;
+	font-family: "coolvetica";
+	color: #400E08;
+	font-size: 5vw;
+	color: white;
+	width: 100%;
+	min-height: 8vh;
+}
 
+.blue_line{
+	width: 100vw;
+	height: 1vh;
+	background-color: #7CC9DD;
+}
 
 .big_icons{
 	display: flex;
@@ -457,8 +471,8 @@ main{
 	}
 
 	#foot_sec2{
-		background-color: #3C1012;
-		font-family: coolvetica;
+		background-color: #D5D5D5;
+		font-family: "coolvetica";
 		color: white;
 		font-size: 5vw;
 		color: white;
