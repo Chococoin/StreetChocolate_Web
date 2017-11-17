@@ -19,7 +19,7 @@
 }
 
 @media (orientation: portrait){
-	#hidden{
+	.hidden{
 		display: none;
 		position: fixed;
 		width: 74vw;

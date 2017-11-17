@@ -10,7 +10,7 @@
 </head>
 <body>
 	<header>
-		<div id="hidden">
+		<div class="hidden">
 			<div id="chocolate_bar">
 				<div class="x_close">
 					<img src="icons/SC_Web_Home-x.png" alt="">
@@ -152,10 +152,10 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$("#hamburger").click(function(){
-				$("#hidden").slideToggle("slow");
+				$(".hidden").slideToggle("slow");
 			});
 			$(".x_close").click(function(){
-				$("#hidden").slideUp("fast");
+				$(".hidden").slideUp("fast");
 			});
 		});
 	</script>

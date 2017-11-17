@@ -5,13 +5,13 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="./styles/reset.css">
 	<link rel="stylesheet" type="text/css" href="./styles/default.css">
-	<link rel="stylesheet" type="text/css" href="./styles/street_chocolate.css">
+	<link rel="stylesheet" type="text/css" href="./styles/take_part.css">
 	<title>Street Chocolate - Delicious Way</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 		<header>
-		<div id="hidden">
+		<div class="hidden">
 			<div id="chocolate_bar">
 				<div class="x_close">
 					<img src="icons/SC_Web_Home-x.png" alt="">
@@ -45,15 +45,60 @@
 	</header>
 		<img class="dropping" src="icons/melted.svg" alt="Melted Chocolate">
 	<main>
-		
+			<section>
+			<h1 class="hidden">Participa</h1>
+			<article class="art_std">
+				<h2>¿C&oacute;mo participar?</h2>
+				<div class="art_line"></div>
+				<p>Queremos hacer un proyecto que incluya a la mayor cantidad de personas a quienes les importe el futuro de su ciudad y de quienes la habitan. Para nosotros lo m&aacute;s valioso es tu perticipaci&oacute;n. Hemos diseñado el proyecto de tal forma que s&oacuet; se requiere un infimo esfuerzo de las personas interesadas.</p>
+				<div id="pink_coffee"></div>
+				<h2>¿Qué queremos?</h2>
+				<div class="art_line"></div>
+				<p>Sabemos que podemos contribuir a resolver estos problemas con una &uacute;nica soluci&oacute;n. Recuperar un espacio para hacerlo productivo es tambien resolver problemas de empleo. Construiremos una pequeña fabrica de chocolate artesanal (bean-to-bar) en un local abandonado de mucha historia y le daremos un empleo y un oficio a las personas con m&aacute; necesidad: Las personas sin un hogar. </p>
+			</article>
+			<div id="bronw_heart"></div>
+			<div class="pink_line"></div>
+			<article class="art_std">
+				<h2>¿Co&oacute;mo lo haremos?</h2>
+				<div class="art_line"></div>
+				<p>Somos un grupo de personas amantes de la ciudad de Florencia y su historia. Vemos con preocupacion la perdida de espacios en la ciudad, acompañado de la perdida de empleos de calidad y el n&uacute;mero de personas sin hogar pidiendo dinero en las calles.</p>
+			</article>
+		</section>
+		<footer class="foot_sec3">
+			<div id="container_last_foot">
+				<div class="cont_logo">
+					<img id="logo_foot" src="./icons/logo.png" alt="Logo">
+				</div>
+				<div id="line_v"></div>
+				<div id="social_icons">
+					<p id="email">german.lugo@bitnibs.com</p>
+					<p id="telf">Tel&eacute;fono: +39 3917927669</p>
+					<p id="address">Direccion: Via Ippolito Pindemonte 63 Firenze - Italia</p>
+					<p id="management">Un proyecto de la Fundacion Bit&amp;Nibs / Caracas-Venezuela</p>
+					<div class="ico_cont">
+						<img class="social_icon" src="./icons/SC_Web_Home-07.png" alt="">
+					</div>
+					<div class="ico_cont">
+						<img class="social_icon" src="./icons/SC_Web_Home-08.png" alt="">
+					</div>
+					<div class="ico_cont">
+						<img class="social_icon" src="./icons/SC_Web_Home-09.png" alt="">
+					</div>
+					<div class="ico_cont">
+						<img class="social_icon" src="./icons/SC_Web_Home-10.png" alt="">
+					</div>
+				</div>
+			</div>
+		<p><strong>2017 &#169;</strong> Street Chocolate todos los derechos reservados</p>
+		</footer>
 	</main>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$("#hamburger").click(function(){
-				$("#hidden").slideToggle("slow");
+				$(".hidden").slideToggle("slow");
 			});
 			$(".x_close").click(function(){
-				$("#hidden").slideUp("fast");
+				$(".hidden").slideUp("fast");
 			});
 		});
 	</script>
