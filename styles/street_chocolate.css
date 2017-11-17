@@ -1,9 +1,33 @@
 #pink_coffee {
-	background-image: url("../images/img7.jpg");
+	background-image: url(../images/img7.jpg);
+	background-repeat: no-repeat;
+	background-size:contain;
+	height: 33vh;
 	width: 100vw;
-	height: auto;
 }
 
 section h1 {
 	font-family: "coolvetica";
+	font-size: 5.25vh;
+	letter-spacing: 2px;
+	margin-top: 2vh;
+	text-align: center;
+}
+
+.dropping {
+	position: relative;
+}
+
+#bronw_heart {
+	background-image: url(../images/img8.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 33vh;
+	width: 100vw;
+}
+
+.pink_line {
+	background-color: pink;
+	height: 1.5vh;
+	width: 100vw;
 }
