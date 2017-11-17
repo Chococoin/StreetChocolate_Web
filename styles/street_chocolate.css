@@ -1,5 +1,9 @@
-#pink_coffee{
+#pink_coffee {
 	background-image: url("../images/img7.jpg");
 	width: 100vw;
 	height: auto;
+}
+
+section h1 {
+	font-family: "coolvetica";
 }
