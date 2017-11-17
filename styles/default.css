@@ -403,6 +403,7 @@
 	}
 
 	.art_std p{
+		display: block;
 		font-family: "avenir_light";
 		font-size: 1em;
 		margin-bottom: 1.2em;
@@ -575,7 +576,7 @@
 }
 
 @media (orientation: landscape ){
-	#hidden{
+	.hidden{
 		display: none;
 		position: fixed;
 		width: 74vw;

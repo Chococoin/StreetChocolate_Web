@@ -27,7 +27,7 @@ main{
 }
 
 @media (orientation: portrait){
-	#hidden{
+	.hidden{
 		display: none;
 		position: fixed;
 		width: 74vw;
@@ -445,7 +445,7 @@ main{
 }
 
 @media (orientation: landscape ){
-	#hidden{
+	.hidden{
 		display: none;
 		position: fixed;
 		width: 74vw;

@@ -1,0 +1,36 @@
+.dropping {
+	position: relative;
+}
+
+.one_icon_center_top {
+	display: flex;
+	justify-content: center;
+	margin-top: 8vh;
+}
+
+.one_icon_center {
+	display: flex;
+	justify-content: center;
+}
+
+.single_img {
+	height: auto;
+	width: 100vw;
+}
+
+#blue_line {
+	background-color: #339CC7;
+	height: 1.5vh;
+	width: 100vw;
+}
+#bronw_line {
+	background-color: #400E08;
+	height: 1.5vh;
+	width: 100vw;
+}
+
+.power {
+	display: flex;
+	justify-content: center;
+	background-color: #
+}
