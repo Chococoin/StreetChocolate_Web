@@ -23,14 +23,30 @@
 	height: 1.5vh;
 	width: 100vw;
 }
-#bronw_line {
+
+#brown_line {
 	background-color: #400E08;
 	height: 1.5vh;
 	width: 100vw;
 }
 
 .power {
+	align-items: center;
+	background-color: #FFF;
 	display: flex;
-	justify-content: center;
-	background-color: #
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height: 12vh;
+	justify-content: flex-end;
+}
+
+.power p {
+	color: #400E08;
+	font-family: "coolvetica";
+	font-size: 3.8vh;
+	margin-bottom: 2vh;
+}
+
+.pinkhills {
+	width: 100vw;
 }
