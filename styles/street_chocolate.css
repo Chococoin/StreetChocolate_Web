@@ -1,9 +1,9 @@
 #pink_coffee {
-	background-image: url(../images/img7.jpg);
+	background-image: url(../images/img7a.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 33vh;
-	width: 100vw;
+	height: 28vh;
+	width: 100%;
 }
 
 section h1 {
@@ -19,15 +19,26 @@ section h1 {
 }
 
 #brown_heart {
+	display: flex;
 	background-image: url(../images/img8.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 33vh;
-	width: 100vw;
+	height: 28vh;
+	width: 100%;
 }
 
-.pink_line {
-	background-color: pink;
+#brown_heart p{
+	border: 2px solid #FAEC43;
+	color: #FAEC43;
+	font-family: "coolvetica";
+	padding: 1em;
+	width: 33%;
+	margin: auto;
+	text-align: center;
+}
+
+.yellow_line {
+	background-color: #FAEC43;
 	height: 1.5vh;
-	width: 100vw;
+	width: 100%;
 }

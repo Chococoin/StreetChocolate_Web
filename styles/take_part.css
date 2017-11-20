@@ -13,14 +13,10 @@
 	justify-content: center;
 }
 
-.single_img {
-	height: auto;
-	width: 100vw;
-}
-
 #blue_line {
 	background-color: #339CC7;
 	height: 1.5vh;
+	line-height: 0;
 	width: 100vw;
 }
 
@@ -47,6 +43,6 @@
 	margin-bottom: 2vh;
 }
 
-.pinkhills {
-	width: 100vw;
+#hidded {
+	display: none;
 }

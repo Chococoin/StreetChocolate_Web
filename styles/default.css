@@ -18,6 +18,26 @@
   src: url('../fonts/AvenirLTStd-Heavy.otf');
 }
 
+.botton_marg{
+	margin-bottom: 2vh;
+}
+
+.pinkhills {
+	width: 100%;
+	height: auto;
+	line-height: 0;
+}
+
+.hidded {
+	display: none;
+}
+
+.single_img {
+	height: auto;
+	width: 100vw;
+	line-height: 0;
+}
+
 @media (orientation: portrait){
 	.hidden{
 		display: none;
@@ -120,7 +140,7 @@
 		justify-content: center;
 	}
 
-	.#400E08_banner{
+	.brown_banner{
 		background-color: #400E08; 
 	}
 
@@ -393,6 +413,10 @@
 
 	.art_std{
 		background-color: #FFF;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.art_std h2{

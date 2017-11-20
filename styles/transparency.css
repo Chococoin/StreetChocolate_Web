@@ -1,0 +1,81 @@
+.dropping {
+	position: relative;
+}
+
+article .txt_c {
+	text-align: center;
+	padding-bottom: 1vh;
+}
+
+#div_cont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#cool {
+	color: #400E08;
+	font-family: "coolvetica";
+	font-size: 3.3vh;
+	margin: auto;
+}
+
+#blue_text {
+	border: 2px solid blue;
+	color: blue;
+	font-family: "coolvetica";
+	padding: 1em;
+}
+
+#green_bar {
+	align-items: center;
+	border-radius: 2em;
+	border: 2px solid brown;
+	display: flex;
+	height: 1.6em; 
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 1vh;
+}
+
+#green_inner_bar {
+	background-color: green;
+	border-radius: 2em;
+	float: left;
+	height: 100%;
+	width: 50%;
+	z-index: 0;
+}
+
+#euro{
+	background-image: url(../icons/brown_euro.png);
+	background-size: cover;
+	width: 1em;
+	height: 1em;
+	margin: 0.3em;
+}
+
+.pink_line {
+	background-color: pink;
+	height: 1.5vh;
+	line-height: 0;
+	width: 100vw;
+}
+
+#power_foot{
+    background-color: #FFF;
+    color: #400E08;
+    font-family: coolvetica;
+    font-size: 3.5vh;
+    min-height: 7vh;
+    width: 100%;
+    margin-top: 0.2vh;
+}
+
+/* Temporary img*/
+
+#to_change img{
+	width: 100%;
+	height: auto;
+}
