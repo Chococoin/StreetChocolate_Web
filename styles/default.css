@@ -18,6 +18,12 @@
   src: url('../fonts/AvenirLTStd-Heavy.otf');
 }
 
+.yellow_line {
+	background-color: #FAEC43;
+	height: 1.5vh;
+	width: 100%;
+}
+
 .botton_marg{
 	margin-bottom: 2vh;
 }

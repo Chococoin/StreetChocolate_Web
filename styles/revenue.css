@@ -1,0 +1,51 @@
+.dropping {
+	position: relative;
+}
+
+#team_img {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-image: url(../images/img13.jpg);
+	background-size: cover;
+	height: 30vh;
+	width: 100%;
+}
+
+#team_img div {
+	width: 35%;
+	margin-bottom: 2vh;
+}
+
+
+#team_img img{
+	width: 100%;
+}
+
+#explore{
+	display: flex;
+	background-image: url(../images/img14.jpg);
+	background-size: cover;
+	height: 30vh;
+	width: 100%;
+}
+
+#explore p{
+	border: 2px solid #FAEC43;
+	color: #FAEC43;
+	font-family: "coolvetica";
+    font-size: 3.8vh;
+    margin: auto;
+    padding: 0.8em;
+	text-align: center;
+	width: 33%;
+}
+
+#yellow_hands{
+	width: 8vw;
+	margin-bottom: 3vh;
+}
+
+#short_space{
+	margin-top: 3vh;
+}
