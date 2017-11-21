@@ -147,7 +147,16 @@
 	}
 
 	.brown_banner{
-		background-color: #400E08; 
+		background-color: #400E08;
+		overflow: hidden;
+	}
+ 
+	#white_border{
+		border: 2px solid #FFF;
+		margin-bottom: 1vh;
+		margin-left: calc(15% + 2px);
+		margin-top: 2vh;
+		width: 65%;
 	}
 
 	header {
