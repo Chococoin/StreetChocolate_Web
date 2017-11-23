@@ -118,11 +118,14 @@ section {
 }
 
 #formb p {
-	color: #6D6D6D;
-	font-family: "avenir_light";
+    color: #6D6D6D;
+    font-family: "avenir_light";
+    font-size: 2.4vh;
+    margin-top: 1.8vh;
+}
+
+#formb a {
 	align-self: flex-end;
-	font-size: 2.6vh;
-	margin-top: 1vh;
 }
 
 #formb {
