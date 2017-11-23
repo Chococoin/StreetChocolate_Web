@@ -530,6 +530,7 @@
 		width: 22%;
 	}
 
+	#yellow_square,
 	#blue_square{
 		align-items: center;
 		border: 2px solid #7CC9DD;
@@ -538,17 +539,17 @@
 		font-family: "Coolvetica";
 		font-size: 4.3vh;
 		justify-content: center;
-		margin-left: calc(30% - 2px);
+		margin-left: calc(36% - 2px);
 		margin-bottom: 5vh;
 		min-height: 6vh;
 		text-align: center;
 		text-decoration: none;
 		vertical-align: middle;
-		width: 40%;
+		width: 26%;
 	}
 
-	#blue_square 
-	a:active, 
+	#blue_square
+	a:active,
 	a:link,
 	a:visited {
 		color: #7CC9DD;
@@ -556,6 +557,23 @@
 
 	#blue_square p {
 		color: #7CC9DD;
+		margin: auto;
+	}
+
+	#yellow_square {
+		border: 2px solid #FFDC00;
+		color: #FFDC00;
+	}
+
+	#yellow_square
+	a:active,
+	a:link,
+	a:visited {
+		color: #FFDC00;
+	}
+
+	#yellow_square p {
+		color: #FFDC00;
 		margin: auto;
 	}
 
