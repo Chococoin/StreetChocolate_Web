@@ -110,11 +110,19 @@ section {
 	width: 90%;
 }
 
-#forma p {
+#forma span {
 	color: #6D6D6D;
 	font-family: "avenir_light";
 	font-size: 1.2em;
 	margin: auto;
+}
+
+#formb p {
+	color: #6D6D6D;
+	font-family: "avenir_light";
+	align-self: flex-end;
+	font-size: 2.6vh;
+	margin-top: 1vh;
 }
 
 #formb {
@@ -148,9 +156,10 @@ section {
 	width: 50vw;
 }
 
-#formb button spam {
+#formb button span {
 	font-family: "coolvetica";
 	font-size: 3.5vh;
+	color: #FFF;
 }
 
 #brown_bottom_bar {
