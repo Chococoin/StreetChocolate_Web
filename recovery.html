@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="./styles/reset.css">
+		<link rel="stylesheet" type="text/css" href="./styles/default.css">
+		<link rel="stylesheet" type="text/css" href="./styles/recovery.css">
+		<title>Street Chocolate - Delicious Way</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="hidden">
+				<div id="chocolate_bar">
+					<div class="x_close">
+						<img src="icons/SC_Web_Home-x.png" alt="">
+					</div>
+					<div id="home_ensamble">
+						<img src="icons/SC_Web_Home-11.png" alt="Icon home"><p>Home</p>
+					</div>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="street_chocolate.html"><img src="icons/SC_who_are_we_brown.png" alt="">Street Chocolate</a></li>
+						<li><a href="take_part.html"><img src="icons/SC_take_part_brown.png" alt="">¿C&oacute;mo Participar?</a></li>
+						<li><a href="transparency.html"><img src="icons/StreetChocolate_asociarse_marron.png" alt="">Transparencia</a></li>
+						<li><a href="revenue.html"><img src="icons/StreetChocolate_beneficios_marron.png" alt="">Beneficios</a></li>
+						<li><a href="gallery.html"><img src="icons/StreetChocolate_Galeria_marron.png" alt="">Galer&iacute;a</a></li>
+						<li><a href="products.html"><img src="icons/StreetChocolate_Prodcutos_Marron.png" alt="">Productos</a></li>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<img id="hamburger" src="icons/hamburger.png" alt="Menu">
+			</div>
+			<div>
+			<img id="logo" src="icons/logo.png" alt="Logo">
+			</div>
+			<div class="right_nav">
+			<p>Iniciar Sesi&oacute;n</p>
+			<img id="dollar" src="icons/white_dollar.png" alt="White Dollar Sign">
+			<img id="language_tag" src="icons/white_ES.png" alt="Sign for Spanish language">
+			</div>
+		</header>
+		<img class="dropping" src="icons/melted.svg" alt="Melted Chocolate">
+		<main>
+			<section>
+				<h1 class="hidded">Conectacte</h1>
+				<div id="gray_block">
+
+					<div id="dist"></div>
+
+					<article class="art_spc">
+
+						<div id="conect_cont">
+							<div class="lt_line left"></div>
+							<div id="conect">
+								<h2>Restablecer</h2>
+								<p>tu contraseña</p>
+							</div>
+							<div class="lt_line right"></div>
+						</div>
+
+						<div class="art_spc" id="forma">
+							<span>Ingresa el e-mail o Username con el que estas registrado en StreetChocolate </span>
+							<form id="formb" action="/action_page.php">
+								<input id="rmail" name="user" type="email" placeholder="Username or e-mail">
+								<br>
+								<button type="submit" name="button_1"><span>Restablecer contraseña</span></button>
+								<a id="reg" href="index.html"><p> . </p></a>
+								<div id="brown_bottom_bar"></div>
+							</form>
+						</div>
+					</article>
+
+				</div> <!-- #gray_block -->
+
+
+			</section>
+
+				<footer class="foot_sec3">
+					<img id="pinkhills" src="icons/StreetChocolate_Iconos_v4-06.png" alt="">
+					<div id="container_last_foot">
+						<div class="cont_logo">
+							<img id="logo_foot" src="./icons/logo.png" alt="Logo">
+						</div>
+						<div id="line_v"></div>
+						<div id="social_icons">
+							<p id="email">german.lugo@bitnibs.com</p>
+							<p id="telf">Tel&eacute;fono: +39 3917927669</p>
+							<p id="address">Direccion: Via Ippolito Pindemonte 63 Firenze - Italia</p>
+							<p id="management">Un proyecto de la Fundacion Bit&amp;Nibs / Caracas-Venezuela</p>
+							<div class="ico_cont">
+								<img class="social_icon" src="./icons/SC_Web_Home-07.png" alt="">
+							</div>
+							<div class="ico_cont">
+								<img class="social_icon" src="./icons/SC_Web_Home-08.png" alt="">
+							</div>
+							<div class="ico_cont">
+								<img class="social_icon" src="./icons/SC_Web_Home-09.png" alt="">
+							</div>
+							<div class="ico_cont">
+								<img class="social_icon" src="./icons/SC_Web_Home-10.png" alt="">
+							</div>
+						</div>
+					</div>
+					<p><strong>2017 &#169;</strong> Street Chocolate todos los derechos reservados</p>
+				</footer>
+
+		</main>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#hamburger").click(function(){
+					$(".hidden").slideToggle("slow");
+				});
+				$(".x_close").click(function(){
+					$(".hidden").slideUp("fast");
+				});
+			});
+		</script>
+	</body>
+</html>
