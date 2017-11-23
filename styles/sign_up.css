@@ -9,10 +9,12 @@ section {
 }
 
 #gray_block {
+	position: relative;
 	background-color: #E4E4E4;
 	border-left: 10vw solid #FFF;
 	border-right: 10vw solid #FFF;
 	height: 100%;
+	margin-bottom: 7vh;
 	width: calc(100% - 20vw);
 }
 
@@ -129,19 +131,35 @@ section {
 
 #formb input {
 	border: 0px;
+	height: 4vh;
 }
 
 #formb input::placeholder {
 	color: #DDD;
+	text-indent: 5px;
 }
 
 #formb button {
-	border: 0;
 	background-color: #400E08;
+	border: 0;
 	color: #FFF;
-	height: 5vh;
+	height: 7vh;
+	margin: 4vh 0 10vh 0;
 	width: 50vw;
-	margin: 3vh 0;
+}
+
+#formb button spam {
+	font-family: "coolvetica";
+	font-size: 3.5vh;
+}
+
+#brown_bottom_bar {
+	position: absolute;
+	bottom: 0px;
+	background-color: #400E08;
+	width: 100%;
+	height: 2vh;
+
 }
 
 footer {
