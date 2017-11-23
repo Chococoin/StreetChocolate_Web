@@ -1,0 +1,192 @@
+section {
+	display: flex;
+	justify-content: center;
+}
+
+#dist {
+	height: 20vh;
+	width: 100%;
+}
+
+#gray_block {
+	background-color: #E4E4E4;
+	border-left: 10vw solid #FFF;
+	border-right: 10vw solid #FFF;
+	height: 100%;
+	margin-bottom: 7vh;
+	width: calc(100% - 20vw);
+}
+
+.art_spc {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#conect_cont {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+}
+
+#conect {
+	border: 1px solid #400E08;
+	display: flex;
+	flex-direction: column;
+	height: 8vh;
+	justify-content: center;
+	width: 60%;
+}
+
+#conect h2{
+	color: #400E08;
+	font-family: "coolvetica";
+	font-size: 4vh;
+	text-align: center;
+}
+
+#conect p{
+	color: #000;
+	font-family: "avenir_light";
+	font-size: 2vh;
+	text-align: center;
+}
+
+
+.lt_line {
+	background-color: #400E08;
+	height: 1px;
+	position: absolute;
+	width: 26%;
+}
+
+.left {
+	left: 0px;
+}
+
+.right {
+	right: 0px;
+}
+
+#cont_icon {
+/*	border: 1px solid red;*/
+	display: flex;
+	height: 6vh;
+	justify-content: space-between;
+	margin: 3vh 0;
+	width: 70%;
+}
+
+#cont_icon img{
+/*	border: 1px solid yellow;*/
+	height: auto;
+	max-height: 6vh;
+	max-width: 6vh;
+	width: auto;
+}
+
+.sngl_cont_icn {
+/*	border: 1px solid blue;*/
+	height: auto;
+	width: 20%;
+}
+
+#forma {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 70%;
+}
+
+#forma form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	width: 90%;
+}
+
+#forma span {
+	color: #6D6D6D;
+	font-family: "avenir_light";
+	font-size: 1.2em;
+	margin: auto;
+}
+
+#formb p {
+    color: #6D6D6D;
+    font-family: "avenir_light";
+    font-size: 2.4vh;
+    margin-top: 1.8vh;
+}
+
+#formb a {
+	align-self: flex-end;
+}
+
+#formb {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#formb label {
+	color: #6D6D6D;
+	font-family: "avenir_light";
+}
+
+#formb input {
+	border: 0px;
+	height: 4vh;
+}
+
+#formb input::placeholder {
+	color: #DDD;
+	text-indent: 5px;
+}
+
+#formb button {
+	background-color: #400E08;
+	border: 0;
+	color: #FFF;
+	height: 7vh;
+	margin-top: 4vh;
+	width: 50vw;
+}
+
+#formb button span {
+	font-family: "coolvetica";
+	font-size: 3.5vh;
+	color: #FFF;
+}
+
+#brown_bottom_bar {
+	position: absolute;
+    bottom: 0px;
+    left: -14.8vw;
+    background-color: #400E08;
+    width: 158.5%;
+    height: 2vh;
+}
+
+#formb #reg p{
+	margin-bottom: 4vh;
+	align-self: center;
+	text-align: center;
+}
+
+footer {
+	position: relative;
+}
+
+#pinkhills {
+	position: absolute;
+    top: -1.93vh;
+    width: 100%;
+    height: 1.93vh;
+}
